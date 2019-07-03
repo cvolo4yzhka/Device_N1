@@ -198,5 +198,6 @@ $(call inherit-product-if-exists, vendor/zte/libs/$(MTK_TARGET_PROJECT)/device-v
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system
 $(call inherit-product, build/target/product/verity.mk)
 
-# copy prebuild files to fix GPS and GSM_audio
-include vendor/zte/prebuilds.mk
+# Copy prebuild files to fix GPS and GSM_audio by cvolo4yzhka
+PRODUCT_COPY_FILES += \
+	$(call find-copy-subdir-files,*,$(LOCAL_PATH)/system/common,system)
