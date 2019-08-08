@@ -38,7 +38,7 @@ PRODUCT_MODEL := ZTE Blade A476
 PRODUCT_POLICY := android.policy_phone
 PRODUCT_BRAND := ZTE
 BUILD_FINGERPRINT := ZTE/ZTE_Blade_A476/ZTE_Blade_A476:5.1/LMY47D/20151127.162449:user/release-keys
-PRIVATE_BUILD_DESC := "full_aeon6735m_65u_n_l1-user" "5.1" "LMY47D" "1448612642" "release-keys"
+#PRIVATE_BUILD_DESC := "full_aeon6735m_65u_n_l1-user" "5.1" "LMY47D" "1448612642" "release-keys"
 PRODUCT_DEFAULT_LOCALE := ru_RU
 
 ifeq ($(TARGET_BUILD_VARIANT), eng)
