@@ -10,7 +10,7 @@ include device/mediatek/mt6735/BoardConfig.mk
 -include $(MTK_PTGEN_OUT)/partition_size.mk
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 4096
-BOARD_MTK_SYSTEM_SIZE_KB := 2097152
+#BOARD_MTK_SYSTEM_SIZE_KB := 2097152
 
 include device/zte/$(MTK_TARGET_PROJECT)/ProjectConfig.mk
 
